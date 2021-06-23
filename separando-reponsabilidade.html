@@ -1,0 +1,40 @@
+<Meta charset="UTF-8"></Meta>
+<ul>
+    <li class="convidado">
+        Nome <span class="nome">Douglas</span>,
+        idade <span class="idade">23</span>
+    </li>
+    <li class="convidado">
+        Nome <span class="nome">Daniel</span>,
+        idade <span class="idade">42</span>
+    </li>    
+    <li class="convidado">
+        Nome <span class="nome">Marcos</span>,
+        idade <span class="idade">27</span>
+    </li>    
+    <li class="convidado">
+        Nome <span class="nome">Flávio</span>,
+        idade <span class="idade">18</span>
+    </li>
+
+    Total das idades: <span class="total"></span>
+</ul>
+
+<script>
+//       recebe >>              //todo o array(linha 3 até 18)
+    var itens = document.querySelectorAll('.convidado');
+           //0
+    var totalDasIdades = 0;
+
+    for(var i = 0; i < itens.length; i++) {
+                                                    //23(linha 5)
+        var idade = itens[i].querySelector('.idade').textContent;
+            //0      << soma >>        //23
+        totalDasIdades+=parseInt(idade);
+    
+    }
+                              //total das idades  = 0 + 23 = 23                  
+    document.querySelector('.total').textContent = totalDasIdades;
+
+
+</script>
