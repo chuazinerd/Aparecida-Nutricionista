@@ -1,3 +1,3 @@
 # Aparecida-Nutricionista
-Lógica de programação I: Os primeiros programas com Javascript e HTML (Alura)
+Lógica de programação: Meu primeiros programas com Javascript
 https://chuazinerd.github.io/Aparecida-Nutricionista/
